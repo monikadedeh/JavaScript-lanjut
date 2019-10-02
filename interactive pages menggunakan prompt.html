@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interactive page </title>
+</head>
+<body>
+	<script type="text/javascript">
+		userName = prompt("What is your name?","");
+		usserAge = prompt("Your age?","");
+		usserAge = parseFloat(usserAge);
+
+		document.write("Hello " + userName + ".")
+		if (usserAge < 18) {
+			document.write(" Do your parents know " + "you are online?");
+		}
+	</script>
+	<p> The rest of the page...
+</body>
+</html>
